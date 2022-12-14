@@ -1,4 +1,26 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+#languageCode = 'en-us'
+title = 'Hector Sab'
 theme = 'ananke'
+defaultContentLanguage = "en"
+
+[languages]
+[languages.en]
+    weight = 1
+
+[languages.es]
+    weight = 2
+
+[params]
+[[params.ananke_socials]]
+    name = "mastodon"
+    url = "https://mastodon.online/@hector_sab"
+    rel = "me noopener"
+
+[[params.ananke_socials]]
+    name = "twitter"
+    url = "https://twitter.com/hector_sab"
+
+[[params.ananke_socials]]
+    name = "github"
+    url = "https://github.com/hector-sab"
