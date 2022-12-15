@@ -4,12 +4,22 @@ title = 'Hector Sab'
 theme = 'ananke'
 defaultContentLanguage = "en"
 
+[menu]
+[[menu.main]]
+    pageRef = "about"
+    name = "About"
+    weight = 20
+
 [languages]
 [languages.en]
     weight = 1
 
 [languages.es]
     weight = 2
+    [[languages.es.menu.main]]
+        pageRef = "about"
+        name = "Acerca de"
+
 
 [params]
 [[params.ananke_socials]]
