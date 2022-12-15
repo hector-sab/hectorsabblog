@@ -34,3 +34,6 @@ defaultContentLanguage = "en"
 [[params.ananke_socials]]
     name = "github"
     url = "https://github.com/hector-sab"
+
+[permalinks]
+    pages = "/:title/"
