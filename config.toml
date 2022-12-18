@@ -13,9 +13,11 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
     weight = 1
+    contentDir = "content/en"
 
 [languages.es]
     weight = 2
+    contentDir = "content/es"
     [[languages.es.menu.main]]
         pageRef = "about"
         name = "Acerca de"
