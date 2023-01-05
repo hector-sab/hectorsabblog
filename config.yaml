@@ -1,0 +1,55 @@
+baseURL: 'https://www.hectorsab.com/'
+#languageCode: 'en-us'
+title: 'Hector Sab'
+theme: ananke
+defaultContentLanguage: "en"
+
+menu:
+  main:
+  - name: About
+    pageRef: about
+    weight: 20
+  - name: Blog
+    pageRef: blog
+    weight: 40
+  - name: TIL
+    pageRef: til
+    weight: 60
+
+languages:
+  en:
+    weight: 1
+    contentDir: content/en
+
+  es:
+    weight: 2
+    contentDir: content/es
+    menu:
+      main:
+      - name: Acerca de
+        pageRef: about
+      - name: Blog
+        pageRef: blog
+      - name: TIL
+        pageRef: til
+
+
+params:
+  ananke_socials:
+  - name: mastodon
+    url: https://mastodon.online/@hector_sab
+    rel: me noopener
+
+  - name: twitter
+    url: https://twitter.com/hector_sab
+
+  - name: github
+    url: https://github.com/hector-sab
+
+permalinks:
+  blog: /blog/:title/
+  til: /til/:title/
+
+taxonomies:
+  tag: tags
+  category: categories
