@@ -1,7 +1,7 @@
 ---
 title: Managing multiple k8s config files
 date: 2023-01-06T08:49:20Z
-draft: true
+draft: false
 categories:
 - kubernetes
 - developer-experience
