@@ -13,7 +13,7 @@ The are times when you need to indent a few lines at the same time, or just one.
 
 {{< video src="vim-regular-indent.webm" type="video/webm" preload="auto" >}}
 
-Once the text has been indented, the visual mode is disabled and all the selection is lost. This is particularly annoying for occasions when trying to indent several times one same block of code. To overcome this, you can add the following lines to your init.lua ( `~/.confings/nvim/init.lua`). In the video below we can see that the visual mode stays active after indenting, giving us the possibility to keep indenting at our will.
+Once the text has been indented, the visual mode is disabled and all the selection is "lost". This is particularly annoying for occasions when trying to indent several times one same block of code. To overcome this, you can add the following lines to your init.lua ( `~/.confings/nvim/init.lua`). In the video below we can see that the visual mode stays active after indenting, giving us the possibility to keep indenting at our will.
 
 ```lua
 vim.keymap.set("v", "<", "<gv")
@@ -24,7 +24,7 @@ vim.keymap.set("v", ">", ">gv")
 
 # Alternatives
 
-As correctly pointed out by [Jamie](https://mastodon.online/@suprjami@fosstodon.org) and [Marcel Bischoff](https://mastodon.online/@hrbf@mastodon.social) on [mastodon](https://mastodon.online/@hector_sab/109664369612200712), there are two other options for indenting that are more vimistic than this remap. Choose whatever fits you best :)
+As correctly pointed out by [Jamie](https://mastodon.online/@suprjami@fosstodon.org) and [Marcel Bischoff](https://mastodon.online/@hrbf@mastodon.social) on [mastodon](https://mastodon.online/@hector_sab/109664369612200712), there are two other options for indenting that are more vimistic than this remap. Use what fits you best :)
 
 ## Specify number of indentations
 
