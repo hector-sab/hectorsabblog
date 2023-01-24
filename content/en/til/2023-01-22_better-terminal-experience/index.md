@@ -1,5 +1,5 @@
 ---
-title: Wezterm, a programable terminal experience
+title: Wezterm, a better terminal experience
 date: 2023-01-22T19:14:33Z
 draft: false
 categories:
